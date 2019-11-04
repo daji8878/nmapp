@@ -1,1 +1,2 @@
-git add . && git commit -m 'test5' && git push
+
+git add . && echo $(date)|git commit -m && git push
