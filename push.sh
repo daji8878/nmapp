@@ -1,2 +1,2 @@
 
-git add . && echo $(date)|git commit -m && git push
+git add . && git commit -m $(date "+%Y%m%d-%H:%M:%S")  && git push
